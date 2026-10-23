@@ -1,0 +1,56 @@
+# Typst build output
+*.pdf
+*.png
+!bilder/*.png
+*.svg
+!bilder/*.svg
+*.html
+out/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+.VolumeIcon.icns
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Editors and IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+.history/
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.orig
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# Claude Code local settings
+.claude/settings.local.json
