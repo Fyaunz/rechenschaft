@@ -2,6 +2,7 @@
 *.pdf
 *.png
 !bilder/*.png
+!vorschau/*.png
 *.svg
 !bilder/*.svg
 *.html
